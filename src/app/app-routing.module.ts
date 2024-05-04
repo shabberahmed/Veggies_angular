@@ -4,6 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { OffersComponent } from './components/offers/offers.component';
 import { HelpComponent } from './components/help/help.component';
+import { WishlistComponent } from './components/wishlist/wishlist.component';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { CompareComponent } from './components/compare/compare.component';
 
 const routes:Routes=[
   {
@@ -14,6 +17,14 @@ const routes:Routes=[
   },
   {
     path:'help',component:HelpComponent
+  },{
+    path:'wishlist',component:WishlistComponent
+  },
+  {
+    path:'contactus',component:ContactusComponent
+  },
+  {
+    path:'compare',component:CompareComponent
   }
 ]
 

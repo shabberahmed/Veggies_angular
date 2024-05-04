@@ -10,6 +10,8 @@ import { MainComponent } from './components/main/main.component';
 import { RouterModule } from '@angular/router';
 import { OffersComponent } from './components/offers/offers.component';
 import { AppRoutingModule } from './app-routing.module';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { CompareComponent } from './components/compare/compare.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { AppRoutingModule } from './app-routing.module';
     FooterComponent,
     HelpComponent,
     MainComponent,
-    OffersComponent
+    OffersComponent,
+    ContactusComponent,
+    CompareComponent
   ],
   imports: [
     BrowserModule,
