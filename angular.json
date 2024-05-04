@@ -25,9 +25,26 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/main.css",
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/fonts/fontawesome/fontawesome.min.css",
+              "src/assets/vendor/slickslider/slick.min.css",
+              "src/assets/vendor/venobox/venobox.min.css",
+              "src/assets/vendor/niceselect/nice-select.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/vendor/bootstrap/jquery-1.12.4.min.js", 
+              "src/assets/js/popper.min.js",
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/slick.js",
+              "src/assets/vendor/isotope/isotope.pkgd.min.js",
+              "src/assets/js/venobox.js",
+              "src/assets/js/main.js",
+              "src/assets/vendor/slickslider/slick.min.js",
+                "src/assets/vendor/venobox/venobox.min.js",
+                "src/assets/vendor/niceselect/nice-select.min.js"        
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +111,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

@@ -1,0 +1,15 @@
+.cart-sidebar {
+  position: fixed;
+  top: 0px;
+  right: -450px;
+  width: 400px;
+  height: 100vh;
+  z-index: 5;
+  background: var(--white);
+  box-shadow: -15px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  transition: right 1s ease-in-out; /* Add transition for smooth movement */
+}
+
+.cart-sidebar.active {
+  right: 0px;
+}
